@@ -1,0 +1,3 @@
+# Firebase onValue Listener Intermittent Update Issue
+
+This repository demonstrates a problem encountered with Firebase's Realtime Database `onValue` listener.  The listener intermittently fails to reflect changes made in the database.  The `bug.js` file shows the original code exhibiting the issue, and `bugSolution.js` provides a potential solution. This issue is not consistently reproducible, which added to its difficulty.  The solution involves adding error handling and a more robust mechanism to ensure data consistency.  Contributions and further debugging are welcome!
